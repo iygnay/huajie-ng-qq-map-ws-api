@@ -1,4 +1,4 @@
-import { OpaqueToken } from '@angular/core';
+import { InjectionToken } from '@angular/core';
 
 export interface QQMapWsApiConfig {
 
@@ -11,4 +11,4 @@ export interface QQMapWsApiConfig {
     key: string;
 }
 
-export const QQ_MAP_WS_API_CONFIG = new OpaqueToken('QQ_MAP_WS_API_CONFIG');
+export const QQ_MAP_WS_API_CONFIG = new InjectionToken('QQ_MAP_WS_API_CONFIG');

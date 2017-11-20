@@ -1,4 +1,10 @@
-﻿# 2.0.0 (2017-06-07)
+﻿# 2.1.0 (2017-11-17)
+
+## 功能调整
+
+1. 将`OpaqueToken`替换为`InjectionToken`, 以配合`angular 5`的升级
+
+# 2.0.0 (2017-06-07)
 
 ## breaking changes
 
